@@ -16,11 +16,22 @@
 
 public class Movie {
 
-   public int price;
-   public date date;
+ double price;
+ String date;
+ String time;
+ String movieName;
+ int hall;
 
+ public Movie (double price, String date, String time, String movieName, int hall) {
+  this.price = price;
+  this.date = date;
+  this.time = time;
+  this.movieName = movieName;
+  this.hall = hall;
+ }
+  public void printAllData(){
+   System.out.println("The price of the movie is "+this.price+ " on that date "+this.date+" at this time "+ this.time+". The name of the movie is "+ this.movieName+ " and it is played at hall "+ this.hall);
+  }
 
+ }
 
-
-
-}
