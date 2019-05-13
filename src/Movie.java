@@ -14,24 +14,12 @@
 //Now, calculate and store in a variable the total price of all created MovieObjects. Discuss with the group.
 
 
-public class A001_Movie {
+public class Movie {
 
-   public double price = NULL;
-   public String mydate  = NULL;
-   public String time = NULL;
-   public String movie = NULL;
-   public Integer cinemaHall = NULL;
+   public int price;
+   public date date;
 
 
-
-
-
-
-
-
-   public static void Main (String[] args){
-
-   }
 
 
 
