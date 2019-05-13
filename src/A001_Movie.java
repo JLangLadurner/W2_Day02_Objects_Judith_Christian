@@ -26,6 +26,9 @@ public class A001_Movie {
 
 
 
+
+
+
    public static void Main (String[] args){
 
    }
